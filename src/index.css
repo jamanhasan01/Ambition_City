@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* font style start */
+
+.h1{
+    @apply text-7xl font-bold xs:text-5xl xs:leading-tight xs:text-left
+}
+.h2{
+    @apply  text-4xl font-bold xs:text-xl sm:text-2xl md:text-2xl  lg:text-3xl
+}
+.h3{
+    @apply text-2xl font-semibold 
+}
+.h4{
+    @apply text-xl font-semibold xs:text-sm sm:text-base md:text-base lg:text-base
+}
+.h5{
+    @apply  text-base font-[600] xs:text-sm md:text-sm
+}
+.h6{
+   @apply text-sm font-[600] xs:text-sm md:text-sm
+}
+.p1{
+    @apply  text-base font-medium xs:text-xs sm:text-sm md:text-sm xs:leading-5  sm:leading-6
+}
+.p2{
+    @apply text-sm font-medium xs:text-xs sm:text-xs xs:leading-5 sm:leading-5
+}
+
+/* font style end */
+
+.positionC{
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
+}
+
+/* flex classes */
+
+.flexB{
+    @apply flex justify-between items-center
+}
+.flexC{
+    @apply flex justify-center items-center
+}
+
+.gridR{
+    @apply grid grid-cols-3 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 
+}
+
+.gridItemCenter{
+    display: grid;
+    grid-template-columns:auto
+}

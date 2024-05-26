@@ -1,0 +1,22 @@
+
+.info h2{
+    font-size: 20px;
+    font-weight:600;
+   
+}
+.info p{
+    font-size: 14px;
+    color: rgb(65, 64, 64);
+    font-weight:500;
+    padding-right:15px;
+    padding: 5px 0px;
+}
+.date{
+    font-weight:400;
+    font:5px;
+    color:rgb(44, 44, 44);
+}
+.price{
+    font-weight:500;
+}
+

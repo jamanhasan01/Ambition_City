@@ -1,0 +1,20 @@
+.show {
+    display: flex;
+    color:#DC893F;
+    border-bottom: #DC893F;
+}
+.hide {
+    display: none;
+    
+}
+
+
+nav {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  nav::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+  
