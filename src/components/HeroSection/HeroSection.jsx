@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section>
       <Container className="h-[90vh] xs:h-[80vh]">
-        <Carousel className="rounded-xl w-full h-full">
+        <Carousel className="rounded-xl w-full h-full xs:pt-[50px]">
           {HeroData.map((item) => (
             <div className="w-full h-full relative" key={item.id}>
               <img

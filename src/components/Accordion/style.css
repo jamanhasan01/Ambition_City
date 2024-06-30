@@ -1,0 +1,44 @@
+/* .accordion {
+    display: flex;
+  }
+  
+  .accordion-sidebar {
+    width: 200px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .accordion-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .accordion-sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .accordion-sidebar li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .accordion-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .accordion-content div {
+    display: none;
+  }
+  
+  .accordion-content div h2 {
+    margin-top: 0;
+  }
+  .accordion-content div {
+    display: none;
+  }
+  
+  .accordion-content div.active {
+    display: block;
+  }
+     */

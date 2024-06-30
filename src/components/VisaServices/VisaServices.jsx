@@ -2,6 +2,8 @@ import Container from '../Container'
 import React from 'react'
 import Button from '../Button'
 import VisaData from "./VisaData"
+import { Link } from 'react-router-dom'
+
 
 const VisaServies = () => {
   return (
@@ -12,7 +14,7 @@ const VisaServies = () => {
                 <div className='w-[50%] xs:w-full flex flex-col gap-4 items-start'>
                     <h2 className='h2'>Your Gateway to Global Exploration</h2>
                     <p className='p2 text-Lblack50 w-2/3 xs:w-[90%] sm:w-[90%] md:w-[90%]'>From Application Assistance to Document Preparation, Our Comprehensive Visa Services Ensure a Smooth and Stress-Free Journey for Every Traveler.</p>
-                    <Button text="Contact Us"></Button>
+                    <Link to="/ContactUs"><Button text="Contact Us"></Button></Link>
                 </div>
 
                 {/* this is box section */}

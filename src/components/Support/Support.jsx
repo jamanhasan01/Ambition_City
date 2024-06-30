@@ -7,7 +7,7 @@ const Support = () => {
   return (
     <>
       <Container>
-        <div className="w-full h-full flex justify-center items-center">
+        <div className="support w-full h-full flex justify-center items-center">
           <div className="w-[90%] h-full flex justify-between items-center xs:w-full">
             <Carousel className="Carousel w-[60%] h-full xs:w-[100%] sm:w-[100%]">
               <div className="info w-full h-full flex justify-center  flex-col p-20 gap-5  xs:p-10 ">

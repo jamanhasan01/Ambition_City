@@ -1,0 +1,28 @@
+/* customStyles.css */
+
+/* Selected dates */
+.rdrDateRangePickerWrapper .rdrSelected,
+.rdrDateRangePickerWrapper .rdrStartEdge,
+.rdrDateRangePickerWrapper .rdrEndEdge,
+.rdrDateRangePickerWrapper .rdrInRange {
+  background-color: #DC893F !important;
+  color: white !important; /* Ensure the text is readable */
+}
+
+/* Unselected dates */
+.rdrDateRangePickerWrapper .rdrDay {
+  color: lightblack !important;
+}
+
+/* Ensure the day numbers are styled correctly */
+.rdrDateRangePickerWrapper .rdrDayNumber span {
+  color: lightblack !important;
+}
+
+/* Override unselected text color to white when date is selected */
+.rdrDateRangePickerWrapper .rdrSelected .rdrDayNumber span,
+.rdrDateRangePickerWrapper .rdrStartEdge .rdrDayNumber span,
+.rdrDateRangePickerWrapper .rdrEndEdge .rdrDayNumber span,
+.rdrDateRangePickerWrapper .rdrInRange .rdrDayNumber span {
+  color: white !important;
+}

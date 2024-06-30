@@ -131,7 +131,7 @@ nav li {
   .mobile-menu-button {
     display: block;
     position: fixed;
-    top: 1rem;
+    top: 3px;
     right: 1rem;
   }
 

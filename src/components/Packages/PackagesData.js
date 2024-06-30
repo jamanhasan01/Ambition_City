@@ -1,7 +1,7 @@
 import image1 from './images/Image1.png';
 import image2 from './images/Image2.png';
 import image3 from './images/Image3.png';
-
+import subImg from "./images/subImg1.png"
 const Data = {
   PackgesData: [
     {
@@ -13,6 +13,9 @@ const Data = {
       date: "18-21 Jan 2024",
       price: "$250 Night",
       start: "5.00",
+      subImg:{subImg}
+      
+      
     },
     {
       id: 2,
@@ -23,6 +26,7 @@ const Data = {
       date: "18-21 Jan 2024",
       price: "$250 Night",
       start: "5.00",
+      
     },
     {
       id: 3,

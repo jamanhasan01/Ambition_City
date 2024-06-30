@@ -1,0 +1,16 @@
+input[type="checkbox"]{
+    margin-right: 6px;
+}
+.checkBox div{
+    display: flex;
+    
+}
+input{
+    outline: none;
+    border-radius: 8px;
+}
+label{
+    font-weight:600;
+    font-size: 16px;
+    color: rgb(82, 81, 81);
+}
