@@ -5,7 +5,7 @@ const TourPlanWithUs = ({title}) => {
   return (
     <section className='TourPlanWithUs'>
         <Container>
-            <div className=' flex flex-col gap-10 py-[50px]'>
+            <div className=' flex flex-col gap-10 py-[54px]'>
                 {/* title section */}
                 <div className='flex justify-center items-center flex-col gap-3'>
                     <h2 className='h2 '>{title || "Tour Plan With Us"}</h2>

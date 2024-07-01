@@ -7,7 +7,7 @@ const Register = () => {
     <>
       <section>
         <Container className="">
-          <div className="flex justify-between py-[50px] gap-10 items-center sm:flex-col xs:flex-col">
+          <div className="flex justify-between py-[54px] gap-10 items-center sm:flex-col xs:flex-col">
             <div className="w-[50%] flex flex-col gap-4 py xs:w-[80%] sm:w-[80%]">
               <h2 className="h2">Annual client Appreciation Award</h2>
               <p className="p1">

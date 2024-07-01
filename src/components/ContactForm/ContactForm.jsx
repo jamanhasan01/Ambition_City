@@ -50,7 +50,7 @@ const ContactForm = () => {
   return (
     <section id="ContactForm">
       <Container>
-        <div className="py-[50px] flex justify-between gap-6 items-center  xs:flex-col sm:flex-col">
+        <div className="py-[54px] flex justify-between gap-6 items-center  xs:flex-col sm:flex-col">
             <div className="w-[50%] xs:w-full sm:w-full">
             <div className="form-container">
             <h3 className="h2 xs:text-center sm:text-center md:text-center">Let’s level up your brand, together</h3>

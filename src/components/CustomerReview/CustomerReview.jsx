@@ -6,7 +6,7 @@ const CustomerReview = () => {
   return (
     <section id="CustomerReview">
       <Container>
-        <div className="w-full grid grid-cols-3 gap-5  py-[50px]">
+        <div className="w-full grid grid-cols-3 gap-5  py-[54px]">
           {ReviewData.map((e) => {
             return (
               <>

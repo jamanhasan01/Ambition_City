@@ -6,7 +6,7 @@ const Formation = () => {
   return (
     <section>
         <Container>
-            <div className='flex justify-between py-[50px] xs:flex-col xs:gap-10'>
+            <div className='flex justify-between py-[54px] xs:flex-col xs:gap-10'>
 
             <div className='w-1/2  flex justify-start items-start flex-col gap-5 sm:w-[45%] xs:w-full'>
                 <h2 className='h2'>Steps to Company Formation in the UAE</h2>

@@ -6,7 +6,7 @@ const License = () => {
   return (
     <section>
         <Container>
-            <div className='flexC flex-col gap-10 py-[50px] '>
+            <div className='flexC flex-col gap-10 py-[54px] '>
                 {/* title  */}
                 <div className='flex flex-col gap-4 justify-center items-center text-center'>
                     <h2 className='h2'>Seamless Travel and Licensing with Ambition City</h2>

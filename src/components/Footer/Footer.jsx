@@ -13,7 +13,7 @@ const Footer = () => {
     <section className="bgImg xs:!bg-none sm:!bg-none md:!bg-none xs:!h-full sm:!h-full">
       <Container className="xs:!h-full">
         <div className="flex justify-center">
-        <div className="w-[70%] flex flex-col justify-center py-[50px] xs:justify-start">
+        <div className="w-[70%] flex flex-col justify-center py-[54px] xs:justify-start">
           <div className="text-center flex flex-col gap-3 xs:text-start">
             <h1 className="h3">
               Happily providing services to our customers

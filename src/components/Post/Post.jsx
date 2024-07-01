@@ -10,7 +10,7 @@ const Post = () => {
     <>
       <section>
         <Container>
-          <div className="flex flex-col gap-7 py-[50px]">
+          <div className="flex flex-col gap-7 py-[54px]">
             <div className="flex justify-between items-center xs:flex-col xs:justify-start xs:items-start gap-4">
               <div className="w-[70%] flex flex-col gap-4">
                 <h2 className="h2">Latest writings</h2>

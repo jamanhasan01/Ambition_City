@@ -5,7 +5,7 @@ const VisitOfficeBanner = () => {
   return (
     <section id="visitOfficeBanner" className="bg-mainClr">
       <Container>
-        <div className="py-[50px]">
+        <div className="py-[54px]">
           <div className="w-full flex justify-between text-start gap-10 xs:text-center sm:text-center xs:flex-col sm:flex-col">
             <div className="text-white flex flex-col gap-3 w-[30%] xs:w-full sm:w-full">
               <h6 className="h6">Our locations</h6>

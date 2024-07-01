@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
     <Container>
-        <div className='contact w-full flex justify-center items-center py-[50px]'>
+        <div className='contact w-full flex justify-center items-center py-[54px]'>
             <div className='w-full flex flex-col gap-8'>
                 <div className='contactInfo w-full flex justify-between flex-wrap gap-6'>
                     <div className='flex gap-2 flex-col xs:w-full'>

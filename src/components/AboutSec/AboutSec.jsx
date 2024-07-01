@@ -6,7 +6,7 @@ const AboutSec = () => {
   return (
     <section id='AboutSec'>
       <Container>
-          <div className='flex justify-between py-[50px] xs:flex-col sm:flex-col gap-10'>
+          <div className='flex justify-between py-[54px] xs:flex-col sm:flex-col gap-10'>
               <div className='w-[40%] xs:w-full sm:w-full'>
                   <img src={AboutImg} alt="" />
               </div>

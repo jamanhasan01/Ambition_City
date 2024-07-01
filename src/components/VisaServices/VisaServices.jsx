@@ -9,7 +9,7 @@ const VisaServies = () => {
   return (
     <section className='bg-[#f8f8f8]'>
         <Container>
-            <div className='flex justify-between py-[50px] xs:flex-col gap-5'>
+            <div className='flex justify-between py-[54px] xs:flex-col gap-5'>
                 {/* this is title section */}
                 <div className='w-[50%] xs:w-full flex flex-col gap-4 items-start'>
                     <h2 className='h2'>Your Gateway to Global Exploration</h2>

@@ -5,7 +5,7 @@ const HappyCustomar = () => {
   return (
     <section>
         <Container>
-            <div className='flex flex-col py-[50px] gap-10'>
+            <div className='flex flex-col py-[54px] gap-10'>
                 <div className='text-center flex flex-col gap-3'>
                     <h2 className='h2'>
                     Happily providing services to our customers

@@ -5,7 +5,7 @@ const ContactForSupport = () => {
   return (
     <section id="contactUs">
         <Container>
-            <div className='flex flex-col gap-10 py-[50px]'>
+            <div className='flex flex-col gap-10 py-[54px]'>
                 <div className='text-center flex flex-col gap-3'>
                   <h6 className='h6 text-mainClr'>Contact Us</h6>
                   <h2 className='h2'>We’d love to hear from you</h2>

@@ -54,7 +54,7 @@ const Packages = ({ showTitle, showManu = true }) => {
 
   return (
     <Container>
-      <div className="flex flex-col gap-5 py-[50px]">
+      <div className="flex flex-col gap-5 py-[54px]">
         {showTitle && <h2 className="h2 text-center terget">Tour departures with best prices and services</h2>}
         {showManu && (
           <div className="relative flex items-center justify-center">

@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
   return (
     <section id="PrivacyPolicy">
       <Container>
-        <div className="flex flex-col justify-center gap-10 items-center py-[50px] w-[50%] sm:w-[70%] xs:w-[90%] xs:text-center m-auto">
+        <div className="flex flex-col justify-center gap-10 items-center py-[54px] w-[50%] sm:w-[70%] xs:w-[90%] xs:text-center m-auto">
           <div className="flex flex-col gap-3 text-center">
             <span className="p2 !text-mainClr">Privacy Policy</span>
             <h2 className="h2">We care about your privacy</h2>

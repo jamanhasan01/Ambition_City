@@ -11,7 +11,8 @@ import CardDetPage from "./pages/CardDetPage";
 import UaeVisa from "./pages/UaeVisa";
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
 import SignUp from "./components/SignUp/SignUp";
-
+import UKVisa from "./pages/UKVisa";
+import USVisa from "./pages/USVisa";
 const App = () => {
 
   return (
@@ -29,6 +30,8 @@ const App = () => {
         <Route path="TradeLicense" element={<TradeLicense/>}></Route>
         <Route path="/package/:id" element={<CardDetPage/>}></Route>
         <Route path="/UAEvisa" element={<UaeVisa/>}></Route>
+        <Route path="/USVisa" element={<USVisa/>}></Route>
+        <Route path="/UKVisa" element={<UKVisa/>}></Route>
         <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>}></Route>
       </Routes>
     </>

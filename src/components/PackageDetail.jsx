@@ -41,7 +41,7 @@ const PackageDetail = () => {
   return (
     <section id="packageDetails">
       <Container>
-        <div className="flex flex-col gap-10 py-[50px]">
+        <div className="flex flex-col gap-10 py-[54px]">
           {/* title */}
           <div className="flex flex-col gap-2">
             <h2 className="h2">

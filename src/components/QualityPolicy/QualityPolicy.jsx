@@ -8,7 +8,7 @@ const QualityPolicy = () => {
   return (
     <section id="QualityPolicy">
       <Container>
-        <div className="flex flex-col py-[50px]">
+        <div className="flex flex-col py-[54px]">
           <div className="flex flex-col gap-4 text-center py-[50px]">
             <h2 className="h2">Quality Policy</h2>
             <p className="p1 w-[60%] m-auto  xs:w-full">
