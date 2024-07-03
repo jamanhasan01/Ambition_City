@@ -10,7 +10,7 @@ const Post = () => {
     <>
       <section>
         <Container>
-          <div className="flex flex-col gap-7 py-[54px]">
+          <div className="flex flex-col gap-7 py-[120px]">
             <div className="flex justify-between items-center xs:flex-col xs:justify-start xs:items-start gap-4">
               <div className="w-[70%] flex flex-col gap-4">
                 <h2 className="h2">Latest writings</h2>
@@ -30,9 +30,9 @@ const Post = () => {
                     key={i.id}
                   >
                     <img src={i.img} alt={i.stitle} className="w-full" />
-                    <div className="info flex flex-col gap-2">
+                    <div className="info flex flex-col gap-1">
                       <h5 className="h5">{i.stitle}</h5>
-                      <h3 className="h3">{i.title}</h3>
+                      <h3 className="h4">{i.title}</h3>
                       <p className="p2">{i.desc}</p>
                       <div className="flex gap-5 items-center">
                         <img

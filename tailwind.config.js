@@ -33,6 +33,10 @@ module.exports = withMT({
         '2xl': {'min': '1536px'},
         // => @media (min-width: 1536px) { ... }
       },
+      fontFamily:{
+        'noto-sans-arabic': ['Noto Sans Arabic', 'sans-serif'],
+        "Inter":["Inter"," sans-serif"]
+      },
     },
   },
   plugins: [],

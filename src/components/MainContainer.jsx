@@ -15,9 +15,6 @@ const MainContainer = ({ children }) => {
       {shouldShowLayout && <Navbar />}
         {children}
       {shouldShowLayout && <Footer />}
-
-   
-      
     </>
   );
 };

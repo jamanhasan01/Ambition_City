@@ -9,13 +9,13 @@ const Contact = () => {
   return (
     <>
     <Container>
-        <div className='contact w-full flex justify-center items-center py-[54px]'>
+        <div className='contact w-full flex justify-center items-center py-[120px]'>
             <div className='w-full flex flex-col gap-8'>
                 <div className='contactInfo w-full flex justify-between flex-wrap gap-6'>
                     <div className='flex gap-2 flex-col xs:w-full'>
                         <h3 className='h4 !text-[18px] text-mainClr'>Contact us</h3>
-                        <h2 className='h3 text-Lblack50'>Chat to our friendly team</h2>
-                        <p className='p2 text-Lblack'>We’d love to hear from you! Please get in touch.</p>
+                        <h2 className='h3'>Chat to our friendly team</h2>
+                        <p className='p2'>We’d love to hear from you! Please get in touch.</p>
                     </div>
                     <div className='flex gap-5 flex-col'>
                         <div className='flex justify-start items-center gap-2'>

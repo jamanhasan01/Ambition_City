@@ -49,7 +49,7 @@ const Navbar = () => {
   return (
     <Container>
       <nav className='navbar' ref={navRef}>
-        <div className='navbar-header'>
+        <div className='navbar-header font-Inter font-[500] !text-[18px]'>
           <button className='mobile-menu-button' onClick={handleMobileMenuToggle}>
             {isMobileMenuOpen ? <CloseIcon className='!text-mainClr' /> : <MenuIcon className='!text-mainClr' />}
           </button>

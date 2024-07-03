@@ -1,55 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* tailwind css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+body{
+    font-family: 'Inter', sans-serif;
+}
+/* Font style start */
 
-/* font style start */
+.h1 {
+    @apply text-[72px] font-[900] xs:text-5xl xs:leading-tight xs:text-left font-noto-sans-arabic leading-[76px];
+  }
+  
+  .h2 {
+    @apply text-[36px] font-[900] xs:text-2xl sm:text-2xl md:text-2xl lg:text-3xl font-noto-sans-arabic text-[#101828];
+  }
+  
+  .h3 {
+    @apply text-[36px] xs:text-2xl font-Inter text-[#101828] font-semibold;
+  }
+  
+  .h4 {
+    @apply text-[20px] xs:text-xl font-semibold  sm:text-base md:text-base lg:text-base font-Inter;
+  }
+  
+  .h5 {
+    @apply text-base font-[600] xs:text-sm md:text-sm text-[#101828];
+  }
+  
+  .h6 {
+    @apply text-sm font-[600] xs:text-sm md:text-sm;
+  }
+  
+  .p1 {
+    @apply text-[18px] font-[400] xs:text-xs sm:text-sm md:text-sm xs:leading-5 sm:leading-6 text-[#344054] font-Inter leading-[28px];
 
-.h1{
-    @apply text-7xl font-bold xs:text-5xl xs:leading-tight xs:text-left
-}
-.h2{
-    @apply  text-4xl font-bold xs:text-xl sm:text-2xl md:text-2xl  lg:text-3xl
-}
-.h3{
-    @apply text-2xl font-semibold 
-}
-.h4{
-    @apply text-xl font-semibold xs:text-sm sm:text-base md:text-base lg:text-base
-}
-.h5{
-    @apply  text-base font-[600] xs:text-sm md:text-sm
-}
-.h6{
-   @apply text-sm font-[600] xs:text-sm md:text-sm
-}
-.p1{
-    @apply  text-base font-medium xs:text-xs sm:text-sm md:text-sm xs:leading-5  sm:leading-6 text-Lblack 
-}
-.p2{
-    @apply text-sm font-medium xs:text-xs sm:text-xs xs:leading-5 sm:leading-5 text-Lblack 
-}
-
-/* font style end */
-
-.positionC{
-    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
-}
-
-/* flex classes */
-
-.flexB{
-    @apply flex justify-between items-center
-}
-.flexC{
-    @apply flex justify-center items-center
-}
-
-.gridR{
-    @apply grid grid-cols-3 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 
-}
-
-.gridItemCenter{
+  }
+  
+  .p2 {
+    @apply text-[16px] font-[400] xs:text-xs sm:text-xs xs:leading-5 sm:leading-5 text-[#344054] font-Inter;
+  }
+  
+  /* Font style end */
+  
+  /* Positioning */
+  
+  .positionC {
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+  
+  /* Flex classes */
+  
+  .flexB {
+    @apply flex justify-between items-center;
+  }
+  
+  .flexC {
+    @apply flex justify-center items-center;
+  }
+  
+  /* Grid classes */
+  
+  .gridR {
+    @apply grid grid-cols-3 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2;
+  }
+  
+  .gridItemCenter {
     display: grid;
-    grid-template-columns:auto
-}
+    grid-template-columns: auto;
+  }
+  

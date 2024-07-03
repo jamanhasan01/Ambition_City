@@ -8,7 +8,7 @@ const BookedTour = ({value1,value2,value3}) => {
   return (
     <section className='BookedTour'>
         <Container>
-            <div className='flex justify-between py-[54px] gap-5 xs:flex-col'>
+            <div className='flex justify-between py-[120px] gap-5 xs:flex-col'>
                 <div className='w-[50%] xs:w-full'>
                     <img  src={BookedImg} alt="" />
                 </div>

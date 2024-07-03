@@ -5,7 +5,7 @@ const Team = () => {
   return (
     <section id="Team">
         <Container>
-            <div className='py-[54px] '>
+            <div className='py-[120px] '>
                 <h2 className='h2 text-center mb-16'>Our Team Member</h2>
 
                 {/* --------- */}

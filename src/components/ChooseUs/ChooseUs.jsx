@@ -6,7 +6,7 @@ const ChooseUs = () => {
   return (
     <section id='ChooseUs'>
         <Container>
-            <div className='flex justify-between gap-10  py-[54px] xs:flex-col sm:flex-col md:flex-col'>
+            <div className='flex justify-between gap-10  py-[120px] xs:flex-col sm:flex-col md:flex-col'>
                 <div className='w-[40%] flex flex-col gap-5 sm:w-full xs:w-full md:w-full'>
                    <div> 
                     <h2 className='h2 mb-3'>Why Choose Us?</h2>

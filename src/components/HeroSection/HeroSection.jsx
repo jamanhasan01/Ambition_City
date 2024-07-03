@@ -29,7 +29,7 @@ const HeroSection = () => {
                     type="text"
                     className="w-full outline-none px-3 py-4 xs:py-3 text-Lblack font-medium rounded-md" placeholder="Search Here..."
                   />
-                  <button className="bg-mainClr text-white h5 rounded-md px-2 py-2 absolute right-[-42px] top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                  <button className="bg-mainClr !text-white h5 rounded-md px-2 py-2 absolute right-[-42px] top-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <SearchIcon /> Search
                   </button>
                 </form>

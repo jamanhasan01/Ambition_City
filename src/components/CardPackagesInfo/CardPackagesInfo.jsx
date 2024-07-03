@@ -4,7 +4,7 @@ import Container from '../Container';
 const CardPackagesInfo = () => {
     return (
         <Container>
-            <div className="flex justify-between mx-5 my-5 py-[54px]">
+            <div className="flex justify-between mx-5 my-5 py-[120px]">
             <div className="w-1/3 flex flex-col gap-2">
                 <h2 className="text-lg mb-2 h5">Things to know</h2>
                 <p className='p1'>House rules</p>

@@ -40,7 +40,7 @@ const TicketForm = () => {
   return (
     <section id='TicketForm'>
       <Container>
-        <form onSubmit={handleSubmit} className='flex flex-col gap-10 items-center py-[54px]'>
+        <form onSubmit={handleSubmit} className='flex flex-col gap-10 items-center py-[120px]'>
           {/* Options section */}
           <div className='w-full grid grid-cols-3 gap-5 xs:grid-cols-1 sm:grid-cols-2'>
             <div className=' flex flex-col gap-2 relative'>

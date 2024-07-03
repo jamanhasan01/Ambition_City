@@ -7,7 +7,7 @@ const Accommodation = () => {
   return (
     <section id='Accommodation'>
         <Container>
-            <div className='py-[54px] px-10 shadow-lg'>
+            <div className='py-[120px] px-10 shadow-lg'>
                 <h2 className='h2'>Hotels and accommodation ideas</h2>
                 <div className='flex justify-between gap-5 mt-10 xs:flex-col sm:flex-col
                 '>

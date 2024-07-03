@@ -5,7 +5,7 @@ const HappyCustomar = () => {
   return (
     <section>
         <Container>
-            <div className='flex flex-col py-[54px] gap-10'>
+            <div className='flex flex-col py-[120px] gap-10'>
                 <div className='text-center flex flex-col gap-3'>
                     <h2 className='h2'>
                     Happily providing services to our customers
@@ -17,19 +17,19 @@ const HappyCustomar = () => {
 
                 <div className='bg-mainClr grid grid-cols-4 sm:grid-cols-2 xs:grid-cols-1 sm:gap-10 xs:gap-10 p-16 rounded-md'>
                     <div className='flex flex-col gap-3 text-white justify-center items-center'>
-                        <h3 className='h2'>2000+</h3>
+                        <h3 className='h2 !text-white'>2000+</h3>
                         <h6 className='h6'>Awarded Customer</h6>
                     </div>
                     <div className='flex flex-col gap-3 text-white justify-center items-center'>
-                        <h3 className='h2'>2000+</h3>
+                        <h3 className='h2 !text-white'>2000+</h3>
                         <h6 className='h6'>Awarded Customer</h6>
                     </div>
                     <div className='flex flex-col gap-3 text-white justify-center items-center'>
-                        <h3 className='h2'>2000+</h3>
+                        <h3 className='h2 !text-white'>2000+</h3>
                         <h6 className='h6'>Awarded Customer</h6>
                     </div>
                     <div className='flex flex-col gap-3 text-white justify-center items-center'>
-                        <h3 className='h2'>2000+</h3>
+                        <h3 className='h2 !text-white'>2000+</h3>
                         <h6 className='h6'>Awarded Customer</h6>
                     </div>
                 </div>

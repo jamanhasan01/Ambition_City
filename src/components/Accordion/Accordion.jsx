@@ -55,7 +55,7 @@ const Accordion = () => {
   return (
     <div className="">
       <Container>
-        <div className='flex justify-between py-[50px] xs:flex-col sm:flex-col'>
+        <div className='flex justify-between py-[120px] xs:flex-col sm:flex-col'>
           <div className="w-1/4 pr-5 xs:w-full sm:w-full">
             <ul className=''>
               {sections.map((section) => (

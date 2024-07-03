@@ -8,7 +8,7 @@ const Support = () => {
     <>
       <Container>
         <div className="support w-full h-full flex justify-center items-center">
-          <div className="w-[90%] h-full flex justify-between items-center xs:w-full">
+          <div className="w-[90%] h-full flex justify-between items-center xs:w-full sm:w-full xs:flex-col sm:flex-col">
             <Carousel className="Carousel w-[60%] h-full xs:w-[100%] sm:w-[100%]">
               <div className="info w-full h-full flex justify-center  flex-col p-20 gap-5  xs:p-10 ">
                 <span className="flex gap-2 text-mainClr">
@@ -17,7 +17,7 @@ const Support = () => {
                   <StarRateIcon className=" !text-lg" />
                   <StarRateIcon className=" !text-lg" />
                 </span>
-                <h1 className="h3 xs:!text-sm w-![120%] ">
+                <h1 className="h3 xs:!text-2xl leading-[44px] w-![120%] ">
                   Love the simplicity of the service and prompt customer
                   support.{" "}
                 </h1>
@@ -56,7 +56,7 @@ const Support = () => {
               </div>
             </Carousel>
 
-            <div className="w-[60%] h-full flex justify-center  flex-col p-20 xs:hidden sm:hidden">
+            <div className="w-[60%] h-full flex justify-center  flex-col p-20 xs:w-full sm:w-full">
               <img
                 src={supportImg}
                 alt=""

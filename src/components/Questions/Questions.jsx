@@ -19,7 +19,7 @@ const Questions = () => {
     <>
       <section>
         <Container>
-          <div className="flex justify-center items-center flex-col gap-10 py-[54px]">
+          <div className="flex justify-center items-center flex-col gap-10 py-[120px]">
             <div className="flex gap-3 flex-col justify-center text-center xs:text-start">
               <h2 className="h2">Frequently asked questions</h2>
               <p className="p1 text-Lblack50">

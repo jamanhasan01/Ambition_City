@@ -54,7 +54,7 @@ const Packages = ({ showTitle, showManu = true }) => {
 
   return (
     <Container>
-      <div className="flex flex-col gap-5 py-[54px]">
+      <div className="flex flex-col gap-5 py-[120px]">
         {showTitle && <h2 className="h2 text-center terget">Tour departures with best prices and services</h2>}
         {showManu && (
           <div className="relative flex items-center justify-center">
@@ -70,25 +70,25 @@ const Packages = ({ showTitle, showManu = true }) => {
               style={{ scrollBehavior: 'smooth' }}
             >
               <li
-                className={`whitespace-nowrap ${toggle === 1 ? 'text-mainClr border-b-2 border-mainClr' : ''}`}
+                className={`whitespace-nowrap ${toggle === 1 ? 'text-[16px] font-[500] font-Inter text-mainClr border-b-2 border-mainClr' : ''}`}
                 onClick={() => navChange(1)}
               >
                 FEATURED PACKAGES
               </li>
               <li
-                className={`whitespace-nowrap ${toggle === 2 ? 'text-mainClr border-b-2 border-mainClr' : ''}`}
+                className={`whitespace-nowrap ${toggle === 2 ? 'text-[16px] font-[500] font-Inter text-mainClr border-b-2 border-mainClr' : ''}`}
                 onClick={() => navChange(2)}
               >
                 SPECIAL PACKAGES
               </li>
               <li
-                className={`whitespace-nowrap ${toggle === 3 ? 'text-mainClr border-b-2 border-mainClr' : ''}`}
+                className={`whitespace-nowrap ${toggle === 3 ? 'text-[16px] font-[500] font-Inter text-mainClr border-b-2 border-mainClr' : ''}`}
                 onClick={() => navChange(3)}
               >
                 LATEST PACKAGES
               </li>
               <li
-                className={`whitespace-nowrap ${toggle === 4 ? 'text-mainClr border-b-2 border-mainClr' : ''}`}
+                className={`whitespace-nowrap ${toggle === 4 ? 'text-[16px] font-[500] font-Inter text-mainClr border-b-2 border-mainClr' : ''}`}
                 onClick={() => navChange(4)}
               >
                 BESTSELLER PACKAGES
@@ -122,15 +122,15 @@ const Packages = ({ showTitle, showManu = true }) => {
                 <Link to={`/package/${item.id}`}>
                   <img src={item.img} alt="" className="w-full object-cover" />
                   <div className="flex justify-between items-center">
-                    <h5 className="h4 xs:text-xl">{item.title}</h5>
+                    <h5 className="h4 xs:text-xl my-3">{item.title}</h5>
                     <span className="!text-mainClr font-medium flex gap-1">
                       <StarIcon className="!text-xl mb-1" />
                       <span>{item.start}</span>
                     </span>
                   </div>
-                  <p className="p2 text-Lblack50">{item.desc}</p>
+                  <p className="p2  mb-4">{item.desc}</p>
                   <span>
-                    <h6 className="h6 text-Lblack50">{item.date}</h6>
+                    <h6 className="h6 text-[#303b4e]">{item.date}</h6>
                     <h6 className="font-semibold">{item.price}</h6>
                   </span>
                 </Link>
