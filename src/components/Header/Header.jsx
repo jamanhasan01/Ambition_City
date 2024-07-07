@@ -19,7 +19,7 @@ const Header = () => {
             </div>
 
             <div className='flex gap-5 xs:hidden items-center'>
-              <Link to="LogIn"><Button className="font-Inter font-[600] !ext-[16px] hover:scale-[1.1] ease-in duration-200 !text-[#DC893F] hover:!text-[#CF782B]" text="Sign In"/></Link>
+              <Link to="LogIn"><Button className="font-Inter font-normal !ext-[16px] hover:scale-[1.1] ease-in duration-200 !text-[#DC893F] hover:!text-[#CF782B]" text="Sign In"/></Link>
              <Link to='AirlinesTicket'>  <Button text="Book Now"></Button></Link>
             </div>
 

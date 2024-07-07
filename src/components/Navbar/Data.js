@@ -1,5 +1,6 @@
-
-
+import image1 from "./img/image1.png"
+import image2 from "./img/image2.png"
+import image3 from "./img/image3.png"
 const navItem = [
   {  
     id: 1,
@@ -12,9 +13,9 @@ const navItem = [
     
     name: "Visa Service",
     submenu: [
-      { id: 1, name: 'UAE Visa', desc: "The latest industry news, updates and info", link:'/UaeVisa' },
-      { id: 2, name: 'US Visa', desc: "The latest industry news, updates and info", link:'/USVisa' },
-      { id: 3, name: 'UK Visa', desc: "The latest industry news, updates and info", link:'/UKVisa' },
+      { id: 1, name: 'UAE Visa',img:image1,title:"United Arab Amirates", link:'/UaeVisa' },
+      { id: 2, name: 'US Visa',img:image2,title:"United Arab Amirates", link:'/USVisa' },
+      { id: 3, name: 'UK Visa',img:image3,title:"United Arab Amirates" , link:'/UKVisa' },
     ]
    
   },

@@ -29,7 +29,7 @@ const SignUp = () => {
               <img src={Logo} alt="Logo" />
             </div>
             <div className="text-center">
-              <h3 className="h3">Sign up for an account</h3>
+              <h3 className="text">Sign up for an account</h3>
               <p className="p2">Join us! Please fill in your details.</p>
             </div>
             <div className="w-full flex flex-col gap-2">

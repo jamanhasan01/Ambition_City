@@ -75,6 +75,7 @@ nav li {
   border-radius: 10px;
 }
 
+
 .dropdown-menu.show {
   display: block;
 }
@@ -95,6 +96,16 @@ nav li {
 .dropdown-desc {
   margin: 0;
   color: #666;
+}
+/* Add this CSS to center the "see more" button */
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ /* Adjust margin as needed */
+  background-color: var(--mainClr);
+  margin-bottom: 15px;
+ 
 }
 
 /* Responsive styles */

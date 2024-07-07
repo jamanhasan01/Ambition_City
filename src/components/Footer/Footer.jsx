@@ -25,7 +25,7 @@ const Footer = () => {
 
           <div className="flex justify-center items-center mt-4 gap-3 xs:justify-start">
             <Button text="Get Stared"></Button>
-            <button className="flex justify-between items-center font-Inter font-[600] !text-[16px] bg-[#4BC45C] text-white px-3 py-2 hover:bg-black rounded-md hover:scale-[1.1] ease-in duration-200"><WhatsAppIcon className='!text-white mr-1 !text-[24px]'/>Chat Now</button>
+            <button className="flex justify-between items-center font-Inter font-normal !text-[16px] bg-[#4BC45C] text-white px-3 py-2 hover:bg-black rounded-md hover:scale-[1.1] ease-in duration-200"><WhatsAppIcon className='!text-white mr-1 !text-[24px]'/>Chat Now</button>
           </div>
 
           <div className="footer-links py-10 gap-8 grid grid-cols-5 sm:grid-cols-2 xs:grid-cols-2 md:grid-cols-3">
